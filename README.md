@@ -27,9 +27,9 @@ HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 UI 프로젝트입니�
 ## 🧩 기능 상세 설명
 
 ### ✅ 반응형 메뉴 구현
-- desktopFlag를 기준으로 모바일과 데스크탑을 구분합니다.
-- 메뉴가 열려 있으면 닫고, 서브 메뉴도 초기화합니다.
-- 초기 실행 시와 resize 이벤트 발생 시 호출됩니다.
+- desktopFlag를 기준으로 모바일과 데스크탑 구분.
+- 메뉴가 열려 있으면 닫고, 서브 메뉴 초기화.
+- 초기 실행 시와 resize 이벤트 발생 시 호출.
 
 ```js
 	$(window).resize(function(){
@@ -105,7 +105,7 @@ HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 UI 프로젝트입니�
 		height: "100%"
 	});
 ```
-<image width= "100%" height= "50%" src="mdimg/marymond_tab.png"></image>
+<image width= "50%" height= "50%" src="mdimg/marymond_tab.png"></image>
 
 
 ### ✅ 메인 Swiper
@@ -174,6 +174,7 @@ HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 UI 프로젝트입니�
 		}
 	});
 ```
+<image width= "50%" height= "50%" src="mdimg/subslider2.png"></image> <image width= "50%" height= "100%" src="mdimg/subslider.png"></image> 
 
 ### ✅ 인터랙티브 비디오 플레이어
 
@@ -198,7 +199,7 @@ HTML, CSS, JavaScript, jQuery를 활용한 반응형 웹 UI 프로젝트입니�
 		video.currentTime=0;
 	});
 ```
-
+<image width= "100%" height= "50%" src="mdimg/video.png"></image>
 
 
 
